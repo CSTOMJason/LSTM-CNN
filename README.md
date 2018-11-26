@@ -12,3 +12,4 @@ OPERATION:python train_lstm_cnn.py.
 
 Visualization:tensorboard --logdir train/.
 
+![image](https://github.com/CSTOMJason/LSTM-CNN/edit/master/sentiment_lstm.jpg)
