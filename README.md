@@ -39,6 +39,7 @@ LSTM+Multi_CNN处理文本情感
        最近学习Attention Mechanism 
           1.将LSTM替换为BiLSTM+Attention在输出结果加入Multi_CNN
           2.先使用Multi_CNN在输出结果添加BiLSTM+Attention 
+Attention论文(https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf)
 一名求知者望大家多多指导QQ728106015
                      
        
