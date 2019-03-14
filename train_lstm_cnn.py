@@ -5,7 +5,7 @@
 ************************************************************************
 
 import tensorflow as tf
-from getdata import data_input()#获取数据
+import getdata
 X_train, X_test, Y_train, Y_test=getdata.data_input()#获取数据
 
 #超参数
