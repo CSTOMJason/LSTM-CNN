@@ -1,6 +1,0 @@
-tensorflow 
-keras
-numpy
-pandas
-sklearn
-re
