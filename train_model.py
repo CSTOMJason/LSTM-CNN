@@ -68,7 +68,7 @@ l2_total_loss=sum(l2_losses)
 with tf.name_scope("cross_entropy"):
     cross_entropy=tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(logits=pred,labels=ys)+beta*l2_total_loss)
 tf.summary.scalar("cross_entropy",cross_entropy)
-train=tf.train.AdamOptimizer(0.0001).minimize(cross_entropy)
+train=tf.train.AdamOptimizer(lr).minimize(cross_entropy)
 correct_pred=tf.equal(tf.argmax(pred,1),tf.argmax(ys,1))
 with tf.name_scope("accuracy"):
     accuracy=tf.reduce_mean(tf.cast(correct_pred,tf.float32))
