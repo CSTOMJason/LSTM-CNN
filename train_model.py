@@ -81,7 +81,7 @@ saver=tf.train.Saver()
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
     train_writer=tf.summary.FileWriter("train",sess.graph)
-    for step in range(1000):
+    for step in range(iteration):
         for j in range(num_batch):
             batchx=X_train[j*batch:(j+1)*batch]
             batchy=Y_train[j*batch:(j+1)*batch]
