@@ -28,10 +28,10 @@ LSTM+Multi_CNN处理文本情感
    -------
 ![](https://github.com/CSTOMJason/LSTM_Multi_CNN/blob/master/model.JPG)
    实验数据图
-    --------
+  -------
 ![](https://github.com/CSTOMJason/LSTM_Multi_CNN/blob/master/result.JPG)
    实验结论分析
-   --------
+---
        LSTM网络是抽取文本的一个全局的信息这个信息具有时间上的关联，在LSTM的输出结果采用Multi抽取LSTM的输出结果中在提取局部特征信息进一步提取特征信        息（先整体在局部的思维方式）
        实验在训练数据上的Accuracy 能达到95.3%，在测试数据上的Accuracy 能达到84.5%（还可以在CNN的输出添加Batch Normalization）
    扩展
