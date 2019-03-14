@@ -26,10 +26,10 @@ LSTM+Multi_CNN处理文本情感
        filters(不同的卷积核的数量)
    模型结构图
    -------
-![](https://github.com/CSTOMJason/LSTM-CNN/blob/master/model.JPG)
+![](https://github.com/CSTOMJason/LSTM_Multi_CNN/blob/master/model.JPG)
    实验数据图
     --------
-![](https://github.com/CSTOMJason/LSTM-CNN/blob/master/result.JPG)
+![](https://github.com/CSTOMJason/LSTM_Multi_CNN/blob/master/result.JPG)
    实验结论分析
    --------
        LSTM网络是抽取文本的一个全局的信息这个信息具有时间上的关联，在LSTM的输出结果采用Multi抽取LSTM的输出结果中在提取局部特征信息进一步提取特征信        息（先整体在局部的思维方式）
